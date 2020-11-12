@@ -1,7 +1,16 @@
-<!--
+<header> </header>
+<h1 class = "header">Smart Home Devices</h1>
 
-<div *ngFor = "let e of this.listado"> 
-        <p appNombreDirectiva> Nombre: {{e.nombre}}</p>
-        <p> Ubicacion: {{e.ubicacion}}</p>
+<div>
+        <p>
+                A continuación se hace una lista de los dispositivos disponibles en este proyecto:
+        </p>
 </div>
--->
+<div *ngFor = "let e of this.Devices"> 
+        <p> Nombre: {{e.nombre}}</p>
+        <p> Id dispositivo: {{e.dispositivoId}}</p>
+        <p> Ubicacion: {{e.ubicacion}}</p>
+        <p> Id Electrovalvula: {{e.electrovalvulaId}}</p>
+</div>
+<footer>FS</footer>
+<!--Habilitar: ng serve --disable-host-check>-->

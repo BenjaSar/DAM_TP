@@ -49,13 +49,6 @@
         this._electrovalvulaId = eValvulaId;
          } 
 
-    Device1 = new Dispositivos(1, "Sensor 1", "Patio", 1);    
-    Device2 = new Dispositivos(2, "Sensor 2", "Cocina", 2);
-    Device3 = new Dispositivos(3, "Sensor 3", "Jardin delantero", 3);
-    Device4 = new Dispositivos(4, "Sensor 4", "Living", 4);
-
-    
-
 }
 
   /*For each property:

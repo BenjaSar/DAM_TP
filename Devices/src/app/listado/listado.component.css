@@ -1,0 +1,12 @@
+.header{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+    color:  #666;
+}
+footer{
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-style: italic;
+text-align: right;
+text-emphasis: bold;
+}
